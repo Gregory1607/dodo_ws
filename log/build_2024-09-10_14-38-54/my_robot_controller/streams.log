@@ -1,0 +1,51 @@
+[0.934s] Invoking command in '/home/gregory3/ros2_ws/src/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gregory3/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/gregory3/ros2_ws/build/my_robot_controller/build install --record /home/gregory3/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.211s] running egg_info
+[1.212s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[1.231s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.232s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.232s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.232s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.232s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.232s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.275s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.276s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.276s] running build
+[1.276s] running build_py
+[1.276s] creating /home/gregory3/ros2_ws/build/my_robot_controller/build
+[1.276s] creating /home/gregory3/ros2_ws/build/my_robot_controller/build/lib
+[1.276s] creating /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.276s] copying my_robot_controller/diff_drive_robot.py -> /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.277s] copying my_robot_controller/__init__.py -> /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.277s] creating /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules
+[1.277s] copying my_robot_controller/submodules/encoder_wrap.py -> /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules
+[1.277s] copying my_robot_controller/submodules/pid.py -> /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules
+[1.277s] copying my_robot_controller/submodules/encoder_to_wheel_jointstate.py -> /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules
+[1.277s] copying my_robot_controller/submodules/__init__.py -> /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules
+[1.278s] running install
+[1.284s] running install_lib
+[1.308s] creating /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[1.308s] copying /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/diff_drive_robot.py -> /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[1.308s] copying /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[1.308s] creating /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules
+[1.309s] copying /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules/encoder_wrap.py -> /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules
+[1.309s] copying /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules/pid.py -> /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules
+[1.309s] copying /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules/encoder_to_wheel_jointstate.py -> /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules
+[1.309s] copying /home/gregory3/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/submodules/__init__.py -> /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules
+[1.310s] byte-compiling /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/diff_drive_robot.py to diff_drive_robot.cpython-312.pyc
+[1.312s] byte-compiling /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/__init__.py to __init__.cpython-312.pyc
+[1.312s] byte-compiling /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules/encoder_wrap.py to encoder_wrap.cpython-312.pyc
+[1.312s] byte-compiling /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules/pid.py to pid.cpython-312.pyc
+[1.313s] byte-compiling /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules/encoder_to_wheel_jointstate.py to encoder_to_wheel_jointstate.cpython-312.pyc
+[1.313s] byte-compiling /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/submodules/__init__.py to __init__.cpython-312.pyc
+[1.313s] running install_data
+[1.314s] creating /home/gregory3/ros2_ws/install/my_robot_controller/share/ament_index
+[1.314s] creating /home/gregory3/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[1.314s] creating /home/gregory3/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.314s] copying resource/my_robot_controller -> /home/gregory3/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.314s] copying package.xml -> /home/gregory3/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.314s] running install_egg_info
+[1.341s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.1-py3.12.egg-info
+[1.341s] running install_scripts
+[1.484s] Installing diff_drive_robot script to /home/gregory3/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.484s] writing list of installed files to '/home/gregory3/ros2_ws/build/my_robot_controller/install.log'
+[1.522s] Invoked command in '/home/gregory3/ros2_ws/src/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gregory3/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gregory3/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/gregory3/ros2_ws/build/my_robot_controller/build install --record /home/gregory3/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
