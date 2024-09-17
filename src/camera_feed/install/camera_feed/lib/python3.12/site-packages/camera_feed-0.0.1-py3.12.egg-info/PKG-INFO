@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: camera-feed
+Version: 0.0.1
+Summary: Camera feed package for streaming IP camera feeds
+Maintainer: gregory
+Maintainer-email: gregoryarlanda95@gmail.com
+License: Apache-2.0

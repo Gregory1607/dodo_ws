@@ -1,0 +1,37 @@
+[1.226s] Invoking command in '/home/gregory3/ros2_ws/src/camera_feed': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gregory3/ros2_ws/build/camera_feed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_feed build --build-base /home/gregory3/ros2_ws/build/camera_feed/build install --record /home/gregory3/ros2_ws/build/camera_feed/install.log --single-version-externally-managed install_data
+[1.505s] running egg_info
+[1.505s] creating ../../build/camera_feed/camera_feed.egg-info
+[1.524s] writing ../../build/camera_feed/camera_feed.egg-info/PKG-INFO
+[1.525s] writing dependency_links to ../../build/camera_feed/camera_feed.egg-info/dependency_links.txt
+[1.525s] writing entry points to ../../build/camera_feed/camera_feed.egg-info/entry_points.txt
+[1.525s] writing requirements to ../../build/camera_feed/camera_feed.egg-info/requires.txt
+[1.525s] writing top-level names to ../../build/camera_feed/camera_feed.egg-info/top_level.txt
+[1.525s] writing manifest file '../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[1.563s] reading manifest file '../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[1.564s] writing manifest file '../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[1.564s] running build
+[1.565s] running build_py
+[1.565s] creating /home/gregory3/ros2_ws/build/camera_feed/build
+[1.565s] creating /home/gregory3/ros2_ws/build/camera_feed/build/lib
+[1.565s] creating /home/gregory3/ros2_ws/build/camera_feed/build/lib/camera_feed
+[1.565s] copying camera_feed/camera_stream.py -> /home/gregory3/ros2_ws/build/camera_feed/build/lib/camera_feed
+[1.565s] copying camera_feed/__init__.py -> /home/gregory3/ros2_ws/build/camera_feed/build/lib/camera_feed
+[1.565s] running install
+[1.571s] running install_lib
+[1.594s] creating /home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages/camera_feed
+[1.594s] copying /home/gregory3/ros2_ws/build/camera_feed/build/lib/camera_feed/camera_stream.py -> /home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages/camera_feed
+[1.594s] copying /home/gregory3/ros2_ws/build/camera_feed/build/lib/camera_feed/__init__.py -> /home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages/camera_feed
+[1.595s] byte-compiling /home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages/camera_feed/camera_stream.py to camera_stream.cpython-312.pyc
+[1.596s] byte-compiling /home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages/camera_feed/__init__.py to __init__.cpython-312.pyc
+[1.597s] running install_data
+[1.597s] creating /home/gregory3/ros2_ws/install/camera_feed/share/ament_index
+[1.597s] creating /home/gregory3/ros2_ws/install/camera_feed/share/ament_index/resource_index
+[1.597s] creating /home/gregory3/ros2_ws/install/camera_feed/share/ament_index/resource_index/packages
+[1.597s] copying resource/camera_feed -> /home/gregory3/ros2_ws/install/camera_feed/share/ament_index/resource_index/packages
+[1.597s] copying package.xml -> /home/gregory3/ros2_ws/install/camera_feed/share/camera_feed
+[1.598s] running install_egg_info
+[1.618s] Copying ../../build/camera_feed/camera_feed.egg-info to /home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages/camera_feed-0.0.1-py3.12.egg-info
+[1.619s] running install_scripts
+[1.753s] Installing camera_stream script to /home/gregory3/ros2_ws/install/camera_feed/lib/camera_feed
+[1.754s] writing list of installed files to '/home/gregory3/ros2_ws/build/camera_feed/install.log'
+[1.804s] Invoked command in '/home/gregory3/ros2_ws/src/camera_feed' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gregory3/ros2_ws/build/camera_feed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gregory3/ros2_ws/install/camera_feed/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_feed build --build-base /home/gregory3/ros2_ws/build/camera_feed/build install --record /home/gregory3/ros2_ws/build/camera_feed/install.log --single-version-externally-managed install_data

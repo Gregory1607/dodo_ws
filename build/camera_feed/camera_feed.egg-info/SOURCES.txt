@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camera_feed/camera_feed.egg-info/PKG-INFO
+../../build/camera_feed/camera_feed.egg-info/SOURCES.txt
+../../build/camera_feed/camera_feed.egg-info/dependency_links.txt
+../../build/camera_feed/camera_feed.egg-info/entry_points.txt
+../../build/camera_feed/camera_feed.egg-info/requires.txt
+../../build/camera_feed/camera_feed.egg-info/top_level.txt
+../../build/camera_feed/camera_feed.egg-info/zip-safe
+camera_feed/__init__.py
+camera_feed/camera_stream.py
+resource/camera_feed
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
